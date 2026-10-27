@@ -15,7 +15,7 @@ export function generate(input: Input): Output {
     `LEGEJO_SMTP_USER=`,
     `LEGEJO_SMTP_PASSWORD=`,
     `LEGEJO_MAIL_FROM=`,
-    `LEGEJO_FULLTEXT=false`,
+    `LEGEJO_FULLTEXT=`,
     `LEGEJO_MCP=false`,
     `LEGEJO_AI_API_KEY=`,
     `LEGEJO_OIDC_ISSUER=`,

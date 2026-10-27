@@ -12,9 +12,10 @@ description:
 instructions:
   Sign in with the admin username and the password in the service's Environment
   tab (LEGEJO_ADMIN_PASSWORD). The password is used only on the first start, to
-  create the admin account. Optional settings such as mail, single sign-on,
-  searching inside the books and the MCP server are listed in the Environment
-  tab and described in the README.
+  create the admin account. Mail, the public address and searching inside the
+  books can be set up on Legejo's Admin page; these and the rest (single
+  sign-on, the MCP server) are also listed in the Environment tab and described
+  in the README.
 changeLog:
   - date: 2026-10-18
     description: Template created (v1.33.0)
@@ -75,12 +76,13 @@ features:
       its reading position in step with Legejo.
   - title: PDFs, Comics and Audiobooks
     description:
-      Keep PDFs and CBZ comics next to the EPUBs, and listen to audiobooks in
-      the browser or as a podcast feed.
+      Read PDFs and CBZ comics in the browser next to the EPUBs, and listen to
+      audiobooks in the browser or as a podcast feed.
   - title: Search Inside the Books
     description:
-      Optionally keep the text of the EPUBs in the database to search inside
-      them, with phrases and passages that open the book at the match.
+      Switch it on on the Admin page to keep the text of the EPUBs in the
+      database and search inside them, with phrases and passages that open the
+      book at the match.
 tags:
   - eBook Management
   - Digital Library
