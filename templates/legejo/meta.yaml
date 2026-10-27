@@ -7,8 +7,8 @@ description:
   over OPDS, and keep KOReader's place in step. Several people can share one
   Legejo, each with a library of their own, and shelves of free books can be
   federated over ActivityPub and followed from Mastodon or another Legejo.
-  Legejo also keeps PDFs, comics and audiobooks. It runs on SQLite in a single
-  container, so no database service is needed.
+  Legejo also reads PDFs and comics in the browser, and keeps audiobooks. It
+  runs on SQLite in a single container, so no database service is needed.
 instructions:
   Sign in with the admin username and the password in the service's Environment
   tab (LEGEJO_ADMIN_PASSWORD). The password is used only on the first start, to
@@ -17,7 +17,7 @@ instructions:
   tab and described in the README.
 changeLog:
   - date: 2026-10-18
-    description: Template created (v1.23.1)
+    description: Template created (v1.33.0)
 links:
   - label: Website
     url: https://github.com/jularboolean/legejo
@@ -42,7 +42,7 @@ schema:
     appServiceImage:
       type: string
       title: App Service Image
-      default: slurvdjur/legejo:1.23.1
+      default: slurvdjur/legejo:1.33.0
     adminUser:
       type: string
       title: Admin Username
